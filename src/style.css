@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bebas+Neue&family=League+Spartan:wght@400;600;700;800;900&family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600&family=Outfit:wght@400;600;700;800;900&family=Sora:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montserrat', 'League Spartan', 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.font-anton {
+  font-family: 'Anton', sans-serif;
+}
+
+.font-archivo {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.font-spartan {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.font-sora {
+  font-family: 'Sora', sans-serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ─── 3D PERSPECTIVE & TRANSFORM UTILITIES ─── */
+.perspective-800 {
+  perspective: 800px;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.perspective-1400 {
+  perspective: 1400px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+/* ─── 3D TEXT EXTRUSION & SHADOW UTILITIES ─── */
+.text-shadow-3d-red {
+  text-shadow: 2px 2px 0px #5c0010, 4px 4px 0px #42000c, 6px 6px 0px #2e0008, 8px 8px 16px rgba(0,0,0,0.6);
+}
+
+.text-shadow-3d-dark {
+  text-shadow: 3px 3px 0px #30000a, 6px 6px 0px #1f0006, 9px 9px 0px #120004, 12px 12px 24px rgba(0,0,0,0.8);
+}
+
+.text-shadow-hero {
+  text-shadow: 0 0 40px rgba(255, 255, 255, 0.4), 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* ─── OUTLINED GHOST ECHO TEXT UTILITIES ─── */
+.text-outline-thin {
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.25);
+  color: transparent;
+}
+
+.text-outline-thick {
+  -webkit-text-stroke: 3px rgba(255, 255, 255, 0.2);
+  color: transparent;
+}
+
+.text-outline-hero {
+  -webkit-text-stroke: 4px rgba(255, 255, 255, 0.16);
+  color: transparent;
+}
+
+.glow-red {
+  box-shadow: 0 0 50px rgba(230, 0, 43, 0.35);
+}
